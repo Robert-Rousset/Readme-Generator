@@ -32,7 +32,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'How do you use the project?'
+        message: 'How do you use the program/application?'
     },
     {
         type: 'list',
@@ -81,7 +81,7 @@ function writeToFile(allDaAnswers) {
         break;
     }
     
-    fs.writeFile('README.md', `${allDaAnswers.licenseBadge}\n # ${allDaAnswers.projectTitle}\n## Description\n${allDaAnswers.description}\n## Table of Contents\n\n[Installation](#installation)\n\n[Usage](#usage)\n\n[License](#license)\n\n[Contribution](#contribution)\n\n[Tests](#tests)\n\n[Questions](#questions)\n\n## Installation\n${allDaAnswers.installation}\n## Usage\n${allDaAnswers.usage}\n## License\nThis project is licensed under the ${allDaAnswers.license} license.\n## How to contribute\n${allDaAnswers.contribution}\n## Tests\n${allDaAnswers.tests}\n## Questions\n If you have any questions please visit my GitHub at https://github.com/${allDaAnswers.userName} or email me at ${allDaAnswers.email}.`, (error) => 
+    fs.writeFile('README.md', `${allDaAnswers.licenseBadge}\n # ${allDaAnswers.projectTitle}\n## Description\n${allDaAnswers.description}\n## Table of Contents\n\n[Installation](#installation)\n\n[Usage](#usage)\n\n[License](#license)\n\n[Contribute](#contribute)\n\n[Tests](#tests)\n\n[Questions](#questions)\n\n## Installation\n${allDaAnswers.installation}\n## Usage\n${allDaAnswers.usage}\n## License\nThis project is licensed under the ${allDaAnswers.license} license.\n## Contribute\n${allDaAnswers.contribution}\n## Tests\n${allDaAnswers.tests}\n## Questions\n If you have any questions please visit my GitHub at https://github.com/${allDaAnswers.userName} or email me at ${allDaAnswers.email}.`, (error) => 
     error ? console.error(error) : console.log('Great Success')) 
 }
 
