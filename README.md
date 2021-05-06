@@ -12,4 +12,4 @@ Here is my walkthrough video: https://drive.google.com/file/d/1ZUk0mAF7LPp7Q-V7s
 
 The link to my generated README: [README](./Develop/README.md)
 
-And a screenshot of my working application: [Screenshot](./Develop/Screenshot/readme-screenshot.png)
+And a screenshot of my working application: ![Screenshot](./Develop/Screenshot/readme-screenshot.png)
