@@ -10,6 +10,6 @@ To complete this task I had to invoke inquirer's prompt function, which asked a 
 
 Here is my walkthrough video: https://drive.google.com/file/d/1ZUk0mAF7LPp7Q-V7sEjbty5MZQH4loK6/view
 
-The link to my generated README: [README](./Develop/README.md)
+The link to my generated [README](./Develop/README.md)
 
 And a screenshot of my working application: ![Screenshot](./Develop/Screenshot/readme-screenshot.png)
